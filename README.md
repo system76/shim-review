@@ -49,22 +49,25 @@ The security contacts need to be verified before the shim can be accepted. For s
 An authorized reviewer will initiate contact verification by sending each security contact a PGP-encrypted email containing random words.
 You will be asked to post the contents of these mails in your `shim-review` issue to prove ownership of the email addresses and PGP keys.
 *******************************************************************************
-- Name:
-- Position:
-- Email address:
-- PGP key fingerprint:
+- Name: Jeremy Soller
+- Position: Principal Engineer
+- Email address: jeremy@system76.com
+- PGP key fingerprint: `DA08 78FC F806 089E D4FD  DF58 E988 B49E E78A 7FB1`
 
 (Key should be signed by the other security contacts, pushed to a keyserver
 like keyserver.ubuntu.com, and preferably have signatures that are reasonably
 well known in the Linux community.)
 
+This key can be found on keyserver.ubuntu.com:
+https://keyserver.ubuntu.com/pks/lookup?search=DA0878FCF806089ED4FDDF58E988B49EE78A7FB1&fingerprint=on&op=index
+
 *******************************************************************************
 ### Who is the secondary contact for security updates, etc.?
 *******************************************************************************
-- Name:
-- Position:
-- Email address:
-- PGP key fingerprint:
+- Name: Tim Crawford
+- Position: Kernel Engineer
+- Email address: tcrawford@system76.com
+- PGP key fingerprint: `9495 B69D CFA3 D043 3C65  53A8 68E5 58D2 BBD8 56E3`
 
 (Key should be signed by the other security contacts, pushed to a keyserver
 like keyserver.ubuntu.com, and preferably have signatures that are reasonably
@@ -83,7 +86,7 @@ in the Dockerfile.
 *******************************************************************************
 ### URL for a repo that contains the exact code which was built to get this binary:
 *******************************************************************************
-https://github.com/system76/shim-review/releases/tag/system76-15.7
+https://github.com/system76/shim-review/releases/tag/system76-shim-x86_64-20230131
 
 *******************************************************************************
 ### What patches are being applied and why:
