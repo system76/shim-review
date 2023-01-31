@@ -20,4 +20,4 @@ WORKDIR /
 # FIXME: This only works on x86-64 efi binary
 RUN hexdump -Cv /shim-review/shimx64.efi > orig && \
     hexdump -Cv /shim/shimx64.efi > build && \
-    diff -u orig build || true
+    diff -u orig build
